@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 40px;
+}
+
+.box-one {
+    background-color: #eb5757;
+
+    /* padding increases the space between 
+    the border of a box and the content of the box.
+    
+    padding-top
+    padding-bottom
+    padding-right
+    padding-left
+    */
+    padding: 20px;
+
+    /*height and width od the content*/
+    height: 100px;
+    width: 100px;
+
+    /*border adds space 
+    (even if it’s only a pixel or two) 
+    between the margin and the padding.
+    
+    border-top
+    border-right
+    border-bottom
+    border-left
+
+    border-width
+    border-style
+    border-color
+    and their combination: border-left-color
+    */
+    border: 20px solid #9b51e0;
+
+    /*margin increases the space between 
+    the borders of a box and the borders
+     of adjacent boxes.*/
+    /* margin does not stack
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
+        can have negative values
+    */
+    margin: 20px;
+
+    /* box-sizing: boder-box makes
+     it count padding and border to height and width*/
+    box-sizing: border-box;
+}
+/*
+.box {
+    margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>
+}</margin-left></margin-bottom></margin-right></margin-top>
+*/
+.box {
+    margin: 10px 20px 30px 40px;
+}
+
+.box-two {
+    background-color: #0685da;
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    border: 20px solid #0ea351;
+    margin: 20px;
+}
